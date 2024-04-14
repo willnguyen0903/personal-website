@@ -36,6 +36,7 @@ body {
   font-size: 20px;
 }
 .hero {
+  min-height: 400px;
   padding-top: 100px;
   align-items: center;
 }
@@ -52,20 +53,26 @@ body {
   width: 500px;
   margin-right: auto;
 }
-.hero img {
+.image {
   position: absolute;
-  top: 200px;
-  left: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 800px;
+  width:500px;
+  height:500px;
+}
+.img1{
   width: 500px;
   height: 500px;
   opacity: 80%;
 }
-.image-text {
-  width:100%;
-  padding-top:490px;
-  margin-left:100px;
+.image p {
+  padding-top: 10px;
   font-size: 15px;
   font-style: italic;
+  width: 100%;
+  opacity: 80%;
 }
 footer {
   padding-top: 100px;
